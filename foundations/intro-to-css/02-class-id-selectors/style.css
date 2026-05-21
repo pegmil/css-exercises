@@ -1,1 +1,36 @@
 /* Add CSS Styling */
+/* Class Selector */
+
+/* 
+* **All odd numbered elements**: a light red/pink background, a
+nd a list of fonts containing `Verdana` and `DejaVu Sans` 
+with `sans-serif` as a fallback
+* **The second element**: blue text and a font size of 36px
+* **
+* **The fourth element**: a light green background, a font size of 24px, and bold
+*/
+
+/* 1, 3, 5 are class selectors */
+.oddElement {
+    background-color: rgb(240, 128, 128);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+/* in addition to the styles for all odd numbered elements, add a font size of 24px */
+.thirdElement {
+    font-size: 24px;
+}
+
+/* ID Selectors
+/* blue text and a font size of 36px */
+#secondElement {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/* a light green background, a font size of 24px, and bold  */
+#fourthElement {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
